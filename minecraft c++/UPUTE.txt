@@ -1,0 +1,26 @@
+BOB - MRACNA KUCA I SVJETILJKA
+Otvori kuvanje.sln. Pokreni Debug | x64.
+
+F: upali/ugasi svjetiljku. Na pocetku je ugasena.
+WASD: hodanje. Mis: pogled i smjer svjetiljke.
+E: vrata. Drzi Ctrl ili C: cucanje. Esc: mis. R: pocetak.
+1/2/3: precaci za pregled katova.
+
+Kuca je mracna: uklonjeni su topli izvori iz hodnika i stubista.
+Ostaje vrlo slaba hladna ambijentalna rasvjeta i mjesecina uz prozore.
+Svjetiljka prati pogled i visinu kamere, ukljucujuci cucanje.
+Snop ima mekani rub, slabi s udaljenoscu i ima doseg do 20 metara.
+Dubinska mapa 2048x2048 i filtriranje sjena omogucuju da zidovi, vrata i
+namjestaj zaklanjaju snop. Staklo je prozirno i ne baca neprozirnu sjenu.
+Blaga vinjeta zatamnjuje rubove prikaza.
+Nema baterije niti treperenja; svjetiljku mozes slobodno paliti i gasiti.
+
+Zvukovi, vrata, namjestaj, cucanje, skrivanje, prozori i suma su zadrzani.
+Bob jos nije dodan; ovo priprema atmosferu za kasnije dodavanje neprijatelja.
+
+PROVJERE
+C++11 sintaksa; tipka F mijenja stanje samo na novi pritisak, ne na ponavljanje;
+oba OpenGL 3.3 programa, dubinski framebuffer, dubina geometrije, renderi s
+ugasenom i upaljenom svjetiljkom te odsutnost OpenGL gresaka.
+U ZIP-u su horror_off.png i horror_on.png za usporedbu istog kadra.
+Windows Visual Studio build i Windows audio nisu pokrenuti ovdje.
